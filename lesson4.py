@@ -29,3 +29,8 @@ print(name.lower())
 print(name.upper())
 print(name.capitalize())  #capitalize the first name only
 print(name.title())       #capitalize all names
+
+print('--------------------------------------------------------')
+message = 'This thing is so easy and fluent'
+new_message = message.replace("fluent", "flowing")
+print(new_message)
