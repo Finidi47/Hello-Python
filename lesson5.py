@@ -2,7 +2,16 @@
 # store data list, tuple, dictionary, set
 # loops
 
-score = 40
+# capture student's marks
+
+entered_value = input("Enter your score:")
+print(type(entered_value))
+
+score = int(entered_value)  #int() convert to an integer
+
+if entered_value.isnumeric() != True:
+    print("Please enter a valid number")
+    exit(0) #stop the program
 
 if score >= 78:
     print("A")
@@ -18,3 +27,4 @@ elif score >= 43 and score <= 49:
     print("C+")
 else:
     print("C")
+
