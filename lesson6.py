@@ -14,3 +14,7 @@ print(scores)
 #Removing elements
 scores.pop(3) # remove 71
 print(scores)
+
+#sort
+scores.sort() # sort(reverse=True)
+print(scores)
