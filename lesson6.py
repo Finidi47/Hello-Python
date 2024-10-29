@@ -6,3 +6,7 @@ scores = [90, 65, 34, 71, 55, 77, 89]
 
 print(scores[0]) #first
 print(scores[2]) #third
+
+#Add new digits
+scores.append(61)
+print(scores)
