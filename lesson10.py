@@ -99,5 +99,8 @@ results = [{"name": "Jane Rich", "maths": 55, "english": 67, "chem": 59, "kis": 
             {"name": "Myra Delaney", "maths": 13, "english": 64, "chem": 63, "kis": 63, "geo": 32},
             {"name": "Linus Adkins", "maths": 69, "english": 18, "chem": 68, "kis": 31, "geo": 49}]
 
-
+#count number of students
 print(len(results))
+
+results.sort(key=lambda res: res['maths'], reverse=True)
+print(results[0])
