@@ -104,3 +104,14 @@ print(len(results))
 
 results.sort(key=lambda res: res['maths'], reverse=True)
 print(results[0])
+
+
+for result in results:
+    total = result['maths'] + result['english'] + result['chem'] + result['kis'] + result['geo']
+    result['total'] = total
+
+print(results)
+
+# chem mean score
+# median score in Eng
+# top 10 students in geo
