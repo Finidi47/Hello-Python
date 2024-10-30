@@ -1,4 +1,4 @@
-results = [[{"name": "Jane Rich", "maths": 55, "english": 67, "chem": 59, "kis": 25, "geo": 13},
+results = [{"name": "Jane Rich", "maths": 55, "english": 67, "chem": 59, "kis": 25, "geo": 13},
             {"name": "Jenette Massey", "maths": 38, "english": 48, "chem": 20, "kis": 28, "geo": 70},
             {"name": "Kelly Galloway", "maths": 64, "english": 72, "chem": 53, "kis": 35, "geo": 100},
             {"name": "Wendy Black", "maths": 22, "english": 45, "chem": 59, "kis": 50, "geo": 96},
@@ -97,4 +97,7 @@ results = [[{"name": "Jane Rich", "maths": 55, "english": 67, "chem": 59, "kis":
             {"name": "Ian Tyler", "maths": 40, "english": 21, "chem": 34, "kis": 37, "geo": 12},
             {"name": "Quinlan Palmer", "maths": 22, "english": 58, "chem": 16, "kis": 12, "geo": 59},
             {"name": "Myra Delaney", "maths": 13, "english": 64, "chem": 63, "kis": 63, "geo": 32},
-            {"name": "Linus Adkins", "maths": 69, "english": 18, "chem": 68, "kis": 31, "geo": 49}]]
+            {"name": "Linus Adkins", "maths": 69, "english": 18, "chem": 68, "kis": 31, "geo": 49}]
+
+
+print(len(results))
