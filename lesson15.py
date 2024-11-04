@@ -29,3 +29,11 @@ class TemporaryEmployee(Employee):
 
     def end_date(self):
         print(f"End date is {self.end_date}")
+
+# P1 = PERMANENT1
+p1 = PermanentEmployee(salary=10000, name="Jane Said", id_number=24445895, gender="F", dob="1999-06-23")
+p1.print_details()
+p1.print_salary()
+
+t1 = TemporaryEmployee("jim", "25638745","1995-6-7", "M", "40", "2024-12-12")
+t1.print_details()
